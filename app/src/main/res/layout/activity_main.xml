@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lcc.mywebview.MainActivity">
+   <Button
+       android:id="@+id/web_button_id"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="点我调用js代码"/>
+   <Button
+       android:id="@+id/but_jump"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="跳转到第二界面"/>
+   <Button
+       android:id="@+id/but_jump3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="跳转到第三界面"/>
+   <Button
+       android:id="@+id/but_jump4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="跳转到第四界面"/>
+
+   <WebView
+       android:id="@+id/main_webview_id"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></WebView>
+
+</LinearLayout>
